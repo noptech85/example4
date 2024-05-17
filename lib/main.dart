@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
      // home: const HomeScreen(),
-      initialRoute: '/',
+      initialRoute: 'login',
       routes: {
-        '/':(context) => const HomeScreen(),
-        '/login':(context) => const LoginScreen(),
+        'home':(context) => const HomeScreen(),
+        'login':(context) => const LoginScreen(),
       },
     );
   }

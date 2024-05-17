@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/home');
+                Navigator.pushNamed(context, 'home');
               },
               child: const Text('Login'),
             ),
